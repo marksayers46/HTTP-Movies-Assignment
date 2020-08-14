@@ -20,8 +20,7 @@ export default function MovieForm(props){
     const handleChange = e =>  {
         setUpdatedMovie({
             ...updatedMovie,
-            [e.target.name]: e.target.value,
-            id:id
+            [e.target.name]: e.target.value
             }
         )
     }

@@ -43,7 +43,7 @@ const App = () => {
   return (
     <MovieDiv>
       <SavedList list={savedList} />
-      <Button onClick={()=> { push("/add-movie") }}>Add A Movie</Button>
+      <Button onClick={() => { push("/add-movie") }}>Add A Movie</Button>
 
       <Route exact path="/">
         <MovieList getMovieList={getMovieList} movies={movieList} />
